@@ -9,24 +9,27 @@
 </head>
 <body>
   <header>
+    <!-- Uso id para un elemento único -->
     <h1 id="titulo-principal">📚 Mi Colección de Libros</h1>
     <nav>
       <ul class="menu">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="coleccion.html">Colección</a></li>
         <li><a href="glosario.html">Glosario</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#contacto">Contacto</a></li> <!-- id interno -->
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="inicio">
       <h2>Bienvenido a mi mundo literario</h2>
+      <!-- Uso span (inline) para resaltar sin romper línea -->
       <p>En esta web comparto mis <span class="resaltado">libros favoritos</span> organizados en tarjetas reutilizables.</p>
     </section>
 
     <section class="tarjetas">
+      <!-- div (block) inicia en nueva línea y organiza la tarjeta completa -->
       <div class="tarjeta">
         <h3>Cien Años de Soledad</h3>
         <p>Autor: Gabriel García Márquez</p>
@@ -48,8 +51,8 @@
   </main>
 
   <footer id="contacto">
-    <p>Creado por Estudiante de 6°G - 2025</p>
-    <p>Contacto: <a href=>Exequieltapia825@gmail.com</a></p>
+    <p>Creado por <strong>Exequiel Tapia</strong> - 6°G - 2025</p>
+    <p>Contacto: <a href="mailto:exequieltapia825@gmail.com">exequieltapia825@gmail.com</a></p>
   </footer>
 </body>
 </html>
